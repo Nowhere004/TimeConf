@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e7b71d65d7be94f826ec1dea0d5172, type: 3}
+  m_Name: Mike and Player First
+  m_EditorClassIdentifier: 
+  SpeakerOne: {fileID: 11400000, guid: f70b5bb23f793d841a850d1048c1dbe5, type: 2}
+  SpeakerTwo: {fileID: 11400000, guid: 306685e8f39427a4ca441dbea90027ce, type: 2}
+  lines:
+  - speaker: {fileID: 11400000, guid: f70b5bb23f793d841a850d1048c1dbe5, type: 2}
+    text: Hey there,Welcome to our town adventurer.
+  - speaker: {fileID: 11400000, guid: 306685e8f39427a4ca441dbea90027ce, type: 2}
+    text: Hey,just tell me what is town called and i will go on my way.
+  - speaker: {fileID: 11400000, guid: f70b5bb23f793d841a850d1048c1dbe5, type: 2}
+    text: This town called Ziracts. Good day Adventurer!
